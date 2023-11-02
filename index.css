@@ -1,0 +1,32 @@
+
+:root{
+    --bg-color: rgb(24, 84, 24);
+    --primary-color: rgb(148, 189, 96);
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+div.container{
+    background-color: var(--bg-color);
+}
+
+div.container h1 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+div.container p {
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+div.container form{
+    border: 2px solid black;
+    margin: 30px 40px 50px 60px;
+    padding: 15px 15px 15px 80px;
+    /* margin é espaçamento externo, e padding é espaçamento interno */
+    /* na margin e no padding, se quiser colocar uma margem diferente de cada lado, só colocar o px que deseja em sentido horário: topo, direita, baixo e esquerda, exemplo acima em margin: 30px 40px 50px 60px*/
+}   

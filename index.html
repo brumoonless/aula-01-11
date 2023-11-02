@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+
+    <!-- Ctrl + ; comenta a linha selecionada -->
+    <!-- div é como se fosse uma caixa -->
+    <!-- comando div.container>h1 já cria a div com o container e o h1 dentro -->
+    <!-- div.container>h1#title já coloca o id title -->
+    <!-- div.form-group*3 já cria 3 divs com class form-grup -->
+    <!-- div.form-group*4>label+input cria 4 campos de formulários para preenchimento pelo usuário -->
+
+    <div class="container">
+        <h1 id="title">Formulário de Contato</h1>
+        <form action="">
+            <div class="form-group"><label for="nome_completo">Nome Completo</label><input type="text" id="nome_completo"></div>
+            <div class="form-group"><label for="email">E-mail</label><input type="email" id="email"></div>
+            <div class="form-group"><label for="assunto">Assunto</label><input type="text" id="assunto"></div>
+            <div class="form-group"><label for="mensagem">Mensagem</label><input type="text" id="mensagem"></div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <!-- <input type="submit" value="Enviar!"> -->
+            <!-- tem duas formas de colocar botão, com button e com input, conforme acima com e sem comentário. -->
+        </form>
+    </div>
+</body>
+</html>
